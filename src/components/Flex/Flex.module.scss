@@ -1,0 +1,36 @@
+.Flex {
+  display: flex;
+  &.jcc {
+    justify-content: center;
+  }
+  &.jcs {
+    justify-content: start;
+  }
+  &.jce {
+    justify-content: end;
+  }
+  &.jcb {
+    justify-content: baseline;
+  }
+  &.fdc {
+    flex-direction: column;
+  }
+  &.fdcr {
+    flex-direction: column-reverse;
+  }
+  &.fdr {
+    flex-direction: row;
+  }
+  &.fdrr {
+    flex-direction: row-reverse;
+  }
+  &.ais {
+    align-items: start;
+  }
+  &.aic {
+    align-items: center;
+  }
+  &.aie {
+    align-items: end;
+  }
+}

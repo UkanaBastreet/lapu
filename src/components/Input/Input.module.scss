@@ -1,0 +1,17 @@
+@import "../colors.scss";
+@import "../global.scss";
+
+.Input {
+  display: inline;
+  outline: none;
+  border: 1px solid $gray-4;
+  background-color: transparent;
+  color: white;
+  width: 100%;
+  &.light {
+    color: black;
+  }
+  &.dark {
+    box-sizing: border-box;
+  }
+}

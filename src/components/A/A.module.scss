@@ -1,0 +1,17 @@
+@import "../global.scss";
+@import "../colors.scss";
+
+
+.A{
+    cursor: pointer;
+    color: $blue-6;
+    transition: .2s;
+    &:hover{
+        
+        color: $blue-5;
+    }
+    &:active{
+        color: $blue-7;
+
+    }
+}
