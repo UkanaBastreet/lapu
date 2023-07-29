@@ -2,16 +2,21 @@
 @import "../global.scss";
 
 .Input {
+  box-sizing: border-box;
   display: inline;
   outline: none;
-  border: 1px solid $gray-4;
+  border: 1px solid $gray-2;
   background-color: transparent;
   color: white;
-  width: 100%;
-  &.light {
-    color: black;
-  }
-  &.dark {
-    box-sizing: border-box;
+  max-width: fit-content;
+  &.text {
+    border-color: transparent;
+    border-bottom-color: $gray-2;
+    border-radius: 0;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    &:focus {
+      border-bottom-color: $gray-5;
+    }
   }
 }

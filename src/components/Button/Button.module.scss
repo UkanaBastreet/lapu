@@ -1,0 +1,205 @@
+@import "../global.scss";
+@import "../colors.scss";
+
+.Button {
+  transition: 0.1s;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  outline: none;
+  &:disabled {
+    cursor: not-allowed;
+  }
+
+  &.secondary {
+    $color: $gray-4;
+    $color-hover: $blue-4;
+    $color-active: $blue-6;
+    $color-disabled: $gray-1;
+    // $color-hover: $black-4;
+    // $color-active: $black-5;
+    // $color-disabled: $gray-1;
+
+    $bg-color: #fff;
+    $bg-color-hover:#fff;
+    $bg-color-active:#fff;
+    $bg-color-disabled:#fff;
+    // $bg-color-hover: $white-3;
+    // $bg-color-active: $white-5;
+    // $bg-color-disabled: $white-4;
+
+    $brd-color: $white-5;
+    $brd-color-hover: $gray-1;
+    $brd-color-hover: $white-5;
+    $brd-color-active: $blue-6;
+    // $brd-color-active: $gray-2;
+    $brd-color-disabled: $gray-1;
+
+    color: $color;
+    background-color: $bg-color;
+    border-color: $brd-color;
+    &:hover,
+    &:focus {
+      color: $color-hover;
+      background-color: $bg-color-hover;
+      border-color: $brd-color-hover;
+    }
+    &:active {
+      color: $color-active;
+      background-color: $bg-color-active;
+      border-color: $brd-color-active;
+    }
+    &:disabled {
+      color: $color-disabled;
+      background-color: $bg-color-disabled;
+      border-color: $brd-color-disabled;
+    }
+  }
+  &.primary {
+    $color: #fff;
+    $color-hover: #fff;
+    $color-active: #fff;
+    $color-disabled: #fff;
+
+    $bg-color: $blue-6;
+    $bg-color-hover: $blue-5;
+    $bg-color-active: $blue-7;
+    $bg-color-disabled: $blue-3;
+
+    $brd-color: $blue-6;
+    $brd-color-hover: $blue-5;
+    $brd-color-active: $blue-7;
+    $brd-color-disabled: $blue-3;
+
+    color: $color;
+    background-color: $bg-color;
+    border-color: $brd-color;
+    &:hover,
+    &:focus {
+      color: $color-hover;
+      background-color: $bg-color-hover;
+      border-color: $brd-color-hover;
+    }
+    &:active {
+      color: $color-active;
+      background-color: $bg-color-active;
+      border-color: $brd-color-active;
+    }
+    &:disabled {
+      color: $color-disabled;
+      background-color: $bg-color-disabled;
+      border-color: $brd-color-disabled;
+    }
+  }
+  &.danger {
+    $color: #fff;
+    $color-hover: #fff;
+    $color-active: #fff;
+    $color-disabled: #fff;
+
+    $bg-color: $red-6;
+    $bg-color-hover: $red-5;
+    $bg-color-active: $red-7;
+    $bg-color-disabled: $red-3;
+
+    $brd-color: $red-6;
+    $brd-color-hover: $red-5;
+    $brd-color-active: $red-7;
+    $brd-color-disabled: $red-3;
+
+    color: $color;
+    background-color: $bg-color;
+    border-color: $brd-color;
+    &:hover,
+    &:focus {
+      color: $color-hover;
+      background-color: $bg-color-hover;
+      border-color: $brd-color-hover;
+    }
+    &:active {
+      color: $color-active;
+      background-color: $bg-color-active;
+      border-color: $brd-color-active;
+    }
+    &:disabled {
+      color: $color-disabled;
+      background-color: $bg-color-disabled;
+      border-color: $brd-color-disabled;
+    }
+  }
+  &.text {
+    $color: $gray-4;
+    $color-hover: $black-4;
+    $color-active: $black-5;
+    $color-disabled: $gray-1;
+
+    $bg-color: #fff;
+    $bg-color-hover: $white-3;
+    $bg-color-active: $white-5;
+    $bg-color-disabled: $white-1;
+
+    $brd-color: #fff;
+    $brd-color-hover: #fff;
+    $brd-color-active: #fff;
+    $brd-color-disabled: #fff;
+
+    color: $color;
+    background-color: $bg-color;
+    border-color: $brd-color;
+    &:hover,
+    &:focus {
+      color: $color-hover;
+      background-color: $bg-color-hover;
+      border-color: $brd-color-hover;
+    }
+    &:active {
+      color: $color-active;
+      background-color: $bg-color-active;
+      border-color: $brd-color-active;
+    }
+    &:disabled {
+      color: $color-disabled;
+      background-color: $bg-color-disabled;
+      border-color: $brd-color-disabled;
+    }
+  }
+  &.link {
+    $color: $blue-6;
+    $color-hover: $blue-4;
+    $color-active: $blue-8;
+    $color-disabled: $blue-3;
+
+    $bg-color: #fff;
+    $bg-color-hover: #fff;
+    $bg-color-active: #fff;
+    $bg-color-disabled: #fff;
+
+    $brd-color: #fff;
+    $brd-color-hover: #fff;
+    $brd-color-active: #fff;
+    $brd-color-disabled: #fff;
+
+    color: $color;
+    background-color: $bg-color;
+    border-color: $brd-color;
+    &:hover,
+    &:focus {
+      color: $color-hover;
+      background-color: $bg-color-hover;
+      border-color: $brd-color-hover;
+    }
+    &:active {
+      color: $color-active;
+      background-color: $bg-color-active;
+      border-color: $brd-color-active;
+    }
+    &:disabled {
+      color: $color-disabled;
+      background-color: $bg-color-disabled;
+      border-color: $brd-color-disabled;
+    }
+  }
+}

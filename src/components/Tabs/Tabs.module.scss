@@ -1,0 +1,40 @@
+@import "../colors.scss";
+
+.Tabs {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  width: 100%;
+  .header {
+    display: flex;
+    list-style: none;
+    gap: 2px;
+    justify-content: stretch;
+    width: 100%;
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid $white-5;
+    .tab {
+      .TabButton {
+        border-radius: 6px 6px 0px 0px;
+        border-bottom: none;
+      }
+    }
+    .tab.active {
+      .TabButton {
+        color: #1677ff;
+      }
+      background-color: #fff;
+      font-weight: 600;
+      z-index: 1;
+    }
+  }
+  .body {
+    padding-top: 14px;
+    flex-direction: column;
+    display: flex;
+    margin-top: -1px;
+    border-top: 1px solid #0000000f;
+  }
+}

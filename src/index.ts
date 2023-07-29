@@ -1,7 +1,11 @@
 export { A } from "./components/A/A";
 export { Alert } from "./components/Alert/Alert";
-export { Checkbox } from "./components/Checkbox/Checkbox";
-export { Flex } from "./components/Flex/Flex";
-export { Input } from "./components/Input/Input";
-export { Slot } from "./components/Slot/Slot";
+export { Button } from "./components/Button/Button";
+export { Card } from "./components/Card/Card";
+export { Dropdown } from "./components/Dropdown/Dropdown";
+export { Tabs } from "./components/Tabs/Tabs";
 export { Tag } from "./components/Tag/Tag";
+export { Text } from "./components/Text/Text";
+export { TreeList } from "./components/TreeList/TreeList";
+export { Checkbox } from "./components/Checkbox/Checkbox";
+export { Input } from "./components/Input/Input";

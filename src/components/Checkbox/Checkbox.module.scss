@@ -1,12 +1,28 @@
 .Checkbox {
   display: inline-flex;
   align-items: center;
+  .default {
+    width: 18px;
+    height: 18px;
+  }
+  .small {
+    width: 16px;
+    height: 16px;
+  }
+  .large {
+    width: 20px;
+    height: 20px;
+    .flag {
+      width: 10px;
+      height: 15px;
+      border-right: 4px solid white;
+      border-bottom: 4px solid white;
+    }
+  }
   .handle {
     margin-right: 4px;
     transition: 0.1s;
     border-radius: 4px;
-    width: 16px;
-    height: 16px;
     color: #fff;
     background-color: #fff;
     border: 1px solid #00000026;

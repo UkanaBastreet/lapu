@@ -1,23 +1,7 @@
 .Alert {
+  display: block;
   padding: 8px 40px;
-  // header::before {
-  //   color: #fff1f0;
-  //   font-weight: 100;
-  //   border-radius: 50%;
-  //   background-color: #ff4d4f;
-  //   display: inline-flex;
-
-  //   justify-content: center;
-  //   align-items: center;
-  //   align-self: center;
-  //   font-size: 10px;
-  //   height: 14px;
-  //   width: 14px;
-  //   content: "✖";
-  //   &.error {
-  //   }
-  // }
-  width: max-content;
+  width: 100%;
   height: min-content;
   border-radius: 8px;
   box-sizing: border-box;

@@ -4,18 +4,23 @@ import classNames from "classnames";
 import { scales } from "../scales";
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
-  theme?: "light" | "dark";
   scale?: scales;
+  view?: "Input" | "text";
 }
 
 export const Input: FC<InputProps> = ({
   scale = "default",
-  theme = "light",
+  view = "Input",
+  width,
   ...props
 }) => {
   return (
     <>
-      <input className={classNames(s.Input, s[theme], s[scale])} {...props} />
+      <input
+        style={{ width: width }}
+        className={classNames(s.Input, s[scale], s[view])}
+        {...props}
+      />
     </>
   );
 };

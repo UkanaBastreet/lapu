@@ -1,0 +1,16 @@
+@import "../global.scss";
+@import "../colors.scss";
+
+.Card {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 24px;
+  width: fit-content;
+  height: fit-content;
+  max-width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
